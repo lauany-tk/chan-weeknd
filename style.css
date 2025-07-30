@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-title {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.content-images {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+a {
+    width: 23%;
+}
+
+img{
+    width: 100%;
+    transition: .3s;
+}
